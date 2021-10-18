@@ -107,3 +107,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OTA - create openrecoveryscript manually
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.aicp.create.ors.file=true
+
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
