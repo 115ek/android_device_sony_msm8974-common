@@ -23,6 +23,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
 # Kernel properties
+TARGET_KERNEL_CLANG_COMPILE := false
 ifeq (,$(filter $(TARGET_KERNEL_SOURCE),))
   TARGET_KERNEL_SOURCE := kernel/sony/msm8974
 endif
