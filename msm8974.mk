@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
 
 # Snap Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Camera2
 
 # Recovery
 PRODUCT_PACKAGES += \

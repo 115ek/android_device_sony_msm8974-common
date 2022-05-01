@@ -16,6 +16,8 @@ BOARD_VENDOR := sony
 
 BUILD_BROKEN_DUP_RULES := true
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/sony/msm8974-common/include
 
@@ -126,10 +128,10 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_USES_INTERACTION_BOOST := true
 
 # SELinux
-include device/qcom/sepolicy-legacy/sepolicy.mk
+#include device/qcom/sepolicy-legacy/sepolicy.mk
 
-BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/sony/msm8974-common/sepolicy
+#BOARD_VENDOR_SEPOLICY_DIRS += \
+#    device/sony/msm8974-common/sepolicy
 
 # Shims
 TARGET_LD_SHIM_LIBS += \
